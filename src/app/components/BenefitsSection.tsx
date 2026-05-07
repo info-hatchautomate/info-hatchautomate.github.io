@@ -146,7 +146,7 @@ export function BenefitsSection() {
           className="text-center mt-16"
         >
           <a
-            href="https://redwoodventuresmx-my.sharepoint.com/personal/nikole_montoya_redwoodcapital_partners/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fnikole%5Fmontoya%5Fredwoodcapital%5Fpartners%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FConvocatoria%20RZ%20actualizada%202%2Epdf&parent=%2Fpersonal%2Fnikole%5Fmontoya%5Fredwoodcapital%5Fpartners%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1"
+            href="Convocatoria - Reto Zapopan.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white font-bold text-lg rounded-xl transition-all shadow-2xl shadow-orange-500/40 hover:shadow-orange-500/60 hover:scale-105 group"

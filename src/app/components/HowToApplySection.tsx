@@ -125,10 +125,10 @@ export function HowToApplySection() {
                     step.title === 'Regístrate'
                       ? 'https://redbean.charly.io/spar/programs/RetoZapopan2026'
                       : step.title === 'Adjunta tu Pitch Deck'
-                      ? 'https://redwoodventuresmx.sharepoint.com/sites/Marketing/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FMarketing%2FDocumentos%20compartidos%2FDise%C3%B1o%202026%2FRedbean%2FReto%20Zapopan%2FManual%20de%20Pitch%20Deck%20Reto%20Zapopan%2015a%20Generacio%CC%81n%2Epdf&parent=%2Fsites%2FMarketing%2FDocumentos%20compartidos%2FDise%C3%B1o%202026%2FRedbean%2FReto%20Zapopan&p=true&ga=1'
-                      : step.title === 'Revisa las bases' || step.title.includes('Reto Zapopan')
-                      ? 'https://redwoodventuresmx-my.sharepoint.com/personal/nikole_montoya_redwoodcapital_partners/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fnikole%5Fmontoya%5Fredwoodcapital%5Fpartners%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FConvocatoria%20RZ%20actualizada%202%2Epdf&parent=%2Fpersonal%2Fnikole%5Fmontoya%5Fredwoodcapital%5Fpartners%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1'
-                      : '#'
+                        ? 'Manual de Pitch Deck.pdf'
+                        : step.title === 'Revisa las bases' || step.title.includes('Reto Zapopan')
+                          ? 'Convocatoria - Reto Zapopan.pdf'
+                          : '#'
                   }
                   target="_blank"
                   rel="noopener noreferrer"

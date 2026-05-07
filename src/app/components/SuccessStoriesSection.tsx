@@ -18,9 +18,9 @@ const stories = [
     link: 'https://www.abejareyna.mx',
   },
   {
-    name: 'Skinedge',
+    name: 'SkinEdge',
     generation: 'Decimocuarta Generación',
-    description: 'Skinedge es una clínica dermatológica especializada en el cuidado avanzado de la piel, donde la experiencia médica se une con la tecnología de vanguardia.',
+    description: 'SkinEdge es una clínica dermatológica especializada en el cuidado avanzado de la piel, donde la experiencia médica se une con la tecnología de vanguardia.',
     color: '#ff007a',
     link: 'https://www.skinedge.mx/',
   },
@@ -112,54 +112,54 @@ export function SuccessStoriesSection() {
 
           <div ref={scrollContainerRef} className="overflow-x-auto pb-8 scrollbar-hide">
             <div className="flex gap-6 min-w-max px-12">
-            {stories.map((story, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="relative p-8 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl hover:bg-white/10 hover:border-white/20 transition-all group w-[340px] flex-shrink-0"
-              >
-                {/* Top accent */}
-                <div
-                  className="absolute top-0 left-0 right-0 h-1 rounded-t-2xl"
-                  style={{ backgroundColor: story.color }}
-                />
+              {stories.map((story, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                  className="relative p-8 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl hover:bg-white/10 hover:border-white/20 transition-all group w-[340px] flex-shrink-0"
+                >
+                  {/* Top accent */}
+                  <div
+                    className="absolute top-0 left-0 right-0 h-1 rounded-t-2xl"
+                    style={{ backgroundColor: story.color }}
+                  />
 
-                {/* Generation badge */}
-                <div className="mb-6">
-                  <span
-                    className="inline-block px-3 py-1 text-sm font-semibold rounded-full"
-                    style={{ backgroundColor: `${story.color}20`, color: story.color }}
-                  >
-                    {story.generation}
-                  </span>
-                </div>
+                  {/* Generation badge */}
+                  <div className="mb-6">
+                    <span
+                      className="inline-block px-3 py-1 text-sm font-semibold rounded-full"
+                      style={{ backgroundColor: `${story.color}20`, color: story.color }}
+                    >
+                      {story.generation}
+                    </span>
+                  </div>
 
-                {/* Content */}
-                <h3 className="text-2xl font-bold text-white mb-4">{story.name}</h3>
-                <p className="text-base text-slate-400 leading-relaxed mb-6">{story.description}</p>
+                  {/* Content */}
+                  <h3 className="text-2xl font-bold text-white mb-4">{story.name}</h3>
+                  <p className="text-base text-slate-400 leading-relaxed mb-6">{story.description}</p>
 
-                {/* Learn more link */}
-                <a
-                  href={story.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-base font-semibold transition-all group-hover:gap-3"
-                  style={{ color: story.color }}
-                >Conoce más<ArrowRight className="w-4 h-4" /></a>
+                  {/* Learn more link */}
+                  <a
+                    href={story.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-base font-semibold transition-all group-hover:gap-3"
+                    style={{ color: story.color }}
+                  >Conoce más<ArrowRight className="w-4 h-4" /></a>
 
-                {/* Glow effect */}
-                <div
-                  className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl blur-xl -z-10"
-                  style={{ backgroundColor: `${story.color}10` }}
-                />
-              </motion.div>
-            ))}
+                  {/* Glow effect */}
+                  <div
+                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl blur-xl -z-10"
+                    style={{ backgroundColor: `${story.color}10` }}
+                  />
+                </motion.div>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
 
         <style dangerouslySetInnerHTML={{
           __html: `
@@ -187,7 +187,7 @@ export function SuccessStoriesSection() {
             <h3 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-4">
               Tú puedes ser el siguiente
             </h3>
-            
+
             <p className="text-base text-slate-400 max-w-3xl mx-auto mb-8">
               Cada generación, cientos de emprendedores aplican y solo 40 equipos serán seleccionados. Si tienes una startup con tracción o una idea validada, este es tu momento.
             </p>
